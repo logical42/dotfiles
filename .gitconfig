@@ -5,8 +5,8 @@
   local = yellow
   remote = green
 [color "status"]
-  added = yellow
-  changed = green
+  added = green
+  changed = yellow 
   untracked = cyan
 [alias]
   st = status
@@ -19,8 +19,11 @@
   lol = log --graph --decorate --pretty=oneline --abbrev-commit
   lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
   ls = ls-files
-  hist = log --pretty=format:\"%C(yellow) %h %C(cyan)%ad%Creset | %s%d %C(green)[%an]\" --graph --date=short
+  hist = log --pretty=format:\"%C(yellow) %h %C(cyan)%ad%Creset | %s%d %C(green)[%an]\n\" --graph --date=short
   type = cat-file -t
   dump = cat-file -p
-[heroku]
-  account = lsat
+[user]
+	name = Han Kang
+	email = hkang@linkedin.com
+[core]
+	editor = vi
