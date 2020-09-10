@@ -23,7 +23,7 @@
   type = cat-file -t
   dump = cat-file -p
 [user]
-	name = Han Kang
-	email = hkang@linkedin.com
+  name = Han Kang
+  email = logicalhan@gmail.com
 [core]
-	editor = vi
+  editor = vi
